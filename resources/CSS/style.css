@@ -25,7 +25,14 @@ header img {
     height: 50px;
     padding-left: 10px;
     position:absolute; left: 10px;
-
+}
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
 }
 .main {
     padding-top: 69px;
@@ -102,12 +109,4 @@ footer {
     text-align: left;
     padding-left: 20px;
     display: block;
-}
-nav {
-    text-align: right;
-    flex-grow: 1;
-}
-nav span {
-    display: inline-block;
-    padding: 20px 10px;
 }
